@@ -1,2 +1,2 @@
 # K-POP
- A K-pop website for m friend and sister.
+ A K-pop website for basic info about k-pop, blackpink and IVE.
