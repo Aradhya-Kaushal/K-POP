@@ -1,7 +1,16 @@
 /*Element Selectors*/
+
 /*Class Selectors*/
+
+/*footer*/
+.links{
+    text-align:center;
+    background-color: #A084DC;
+    padding: 10px;
+}
+
+.socials-link{
+    padding: 4px 7px;
+}
 /*ID Selectors*/
 /*Navbar*/
-.nav-item{
-    color: rgb(192, 188, 188);
-}
