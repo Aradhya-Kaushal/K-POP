@@ -1,6 +1,16 @@
 /*Element Selectors*/
 
 /*Class Selectors*/
+.abt{
+    background-color: #BFACE2;
+    margin: 0px;
+}
+/*top*/
+.top{
+    text-align:center;
+    background-color: #A084DC;
+    padding: 10px;  
+}
 
 /*footer*/
 .links{
@@ -12,5 +22,6 @@
 .socials-link{
     padding: 4px 7px;
 }
+
 /*ID Selectors*/
 /*Navbar*/
