@@ -24,15 +24,20 @@ marquee{
 .abt{
     background-color: #BFACE2;
     margin: 0px;
+    font-family: Poppins;
 }
 .abt-bp{
     background-color: #BFACE2;
     margin: 0px;
+    font-family: Poppins;
 }
+
 .abt-ive{
     background-color: #BFACE2;
     margin: 0px;
+    font-family: Poppins;
 }
+
 /*top*/
 .top{
     text-align:center;
@@ -71,9 +76,7 @@ nav ul li a{
     color: #BFACE2;;
 }
 /*Albums/Songs*/
-.albums_n_songs div img{
-    
-}
+
 /*footer*/
 .links{
     text-align:center;
