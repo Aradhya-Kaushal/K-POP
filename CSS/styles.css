@@ -10,7 +10,7 @@
 
 body{
     font-family: montserrat; 
-    background-color: #BFACE2; 
+    background: #BFACE2; 
 }
 
 marquee{
@@ -35,6 +35,7 @@ marquee{
 .abt-ive{
     background-color: #BFACE2;
     margin: 0px;
+    padding: 20px;
     font-family: Poppins;
 }
 
@@ -76,6 +77,10 @@ nav ul li a{
     color: #BFACE2;;
 }
 /*Albums/Songs*/
+.img{
+    height: 200;
+    width: 200;
+}
 
 /*footer*/
 .links{
