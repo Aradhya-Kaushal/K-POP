@@ -1,5 +1,5 @@
 /*Element Selectors*/
-*{
+* {
     padding: 0;
     margin: 0;
     text-decoration: none;
@@ -8,31 +8,37 @@
     text-align: center;
 }
 
-body{
-    font-family: montserrat; 
-    background: #BFACE2; 
+body {
+    font-family: montserrat;
+    background: #A084DC;
 }
 
-marquee{
+marquee {
     background-color: #A084DC;
     font-family: Ubuntu;
-    padding: 0;
+    padding: 10px;
+    border-bottom: #6a64c5 solid 1px;
     margin: 0;
 }
 
-/*Class Selectors*/
-.abt{
-    background-color: #BFACE2;
-    margin: 0px;
-    font-family: Poppins;
+p {
+    height: 100%;
 }
-.abt-bp{
+
+/*Class Selectors*/
+.abt {
     background-color: #BFACE2;
     margin: 0px;
     font-family: Poppins;
 }
 
-.abt-ive{
+.abt-bp {
+    background-color: #BFACE2;
+    margin: 0px;
+    font-family: Poppins;
+}
+
+.abt-ive {
     background-color: #BFACE2;
     margin: 0px;
     padding: 20px;
@@ -40,19 +46,38 @@ marquee{
 }
 
 /*top*/
-.top{
-    text-align:center;
+.flex-container {
     background-color: #A084DC;
-    padding: 10px;  
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
+
+.flex-item {
+    margin: auto;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+.adjusted-img-1 {
+    height: 209px;
+    width: 249px;
+}
+
 /*Navbar*/
-.navbar{
+.navbar {
     background: #6a64c5;
     height: 80px;
     width: 100%;
     padding: 0;
 }
-label.logo{
+
+label.logo {
     color: #BFACE2;
     font-size: 2rem;
     font-weight: 700;
@@ -60,41 +85,70 @@ label.logo{
     padding: 0 100px;
     margin-right: 700px;
 }
-nav ul{
+
+nav ul {
     float: right;
     margin-right: 20px;
-    
-}
-nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
 }
 
-nav ul li a{
+nav ul li {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: end;
+    align-items: center;
+    line-height: 80px;
+    margin: 0 15px;
+}
+
+nav ul li a {
     font-size: 1.1rem;
     text-decoration: none;
-    color: #BFACE2;;
-}
-/*Albums/Songs*/
-.img{
-    height: 200;
-    width: 200;
+    color: #BFACE2;
+    ;
 }
 
+/*Albums/Songs*/
+.flex-container-f-a-n-s {
+    display: flex;
+    flex: row;
+    justify-content: center;
+    padding: 10px;
+    background-color: #BFACE2;
+}
+
+.img {
+    height: 200;
+    width: 200;
+    margin: 1rem auto;
+}
+
+.adjusted-img-2 {
+    height: 200;
+    width: 200;
+    margin: 1rem auto;
+}
+
+@media (max-width: 800px) {
+    .flex-container-f-a-n-s {
+        flex-direction: column;
+    }
+}
+
+
 /*footer*/
-.links{
-    text-align:center;
+.links {
+    text-align: center;
     background-color: #A084DC;
     padding: 10px;
 }
 
-.socials-link{
-    padding: 4px 7px;
+.socials-link {   
+    margin: 10px;
 }
 
-.albums_n_songs{
-    background-color: #BFACE2;;
+.albums_n_songs {
+    background-color: #BFACE2;
 }
+
 /*ID Selectors*/
-/*Navbar*/
+/*footer*/
