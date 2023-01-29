@@ -1,7 +1,35 @@
 /*Element Selectors*/
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+    font-family: montserrat; 
+    background-color: #BFACE2; 
+}
+
+marquee{
+    background-color: #A084DC;
+    font-family: Ubuntu;
+    padding: 0;
+    margin: 0;
+}
 
 /*Class Selectors*/
 .abt{
+    background-color: #BFACE2;
+    margin: 0px;
+}
+.abt-bp{
+    background-color: #BFACE2;
+    margin: 0px;
+}
+.abt-ive{
     background-color: #BFACE2;
     margin: 0px;
 }
@@ -11,7 +39,41 @@
     background-color: #A084DC;
     padding: 10px;  
 }
+/*Navbar*/
+.navbar{
+    background: #6a64c5;
+    height: 80px;
+    width: 100%;
+    padding: 0;
+}
+label.logo{
+    color: #BFACE2;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 5rem;
+    padding: 0 100px;
+    margin-right: 700px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
 
+nav ul li a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #BFACE2;;
+}
+/*Albums/Songs*/
+.albums_n_songs div img{
+    
+}
 /*footer*/
 .links{
     text-align:center;
@@ -23,5 +85,8 @@
     padding: 4px 7px;
 }
 
+.albums_n_songs{
+    background-color: #BFACE2;;
+}
 /*ID Selectors*/
 /*Navbar*/
