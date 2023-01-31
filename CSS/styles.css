@@ -26,6 +26,12 @@ p {
 }
 
 /*Class Selectors*/
+.license{
+    width: 60%;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
 .abt {
     background-color: #BFACE2;
     margin: 0px;
@@ -44,69 +50,67 @@ p {
     padding: 20px;
     font-family: Poppins;
 }
-
-/*top*/
-.flex-container {
-    background-color: #A084DC;
-    padding: 10px;
+/*Navbar*/
+.navbar{
+    height: 100px;
+    width: 100%;
+    background: #6a64c5;
+}
+nav{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10% 10%;
 }
 
-.flex-item {
-    margin: auto;
+.logo{
+    color: #551A8B;
+    font-size: 32px;
+    font-weight: bold;
 }
 
-@media (max-width: 800px) {
-    .flex-container {
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 50px;
+    padding: 7px;
+}
+
+@media (max-width: 1000px) {
+    nav{
         flex-direction: column;
+        justify-content: center;
+    }
+    .navbar{
+        height: 200px;
+    }
+    nav ul li{
+        display: block;
+        margin: 5px;
     }
 }
-
+/*Top*/
 .adjusted-img-1 {
     height: 209px;
     width: 249px;
 }
 
-/*Navbar*/
-.navbar {
-    background: #6a64c5;
-    height: 80px;
-    width: 100%;
-    padding: 0;
-}
-
-label.logo {
-    color: #BFACE2;
-    font-size: 2rem;
-    font-weight: 700;
-    line-height: 5rem;
-    padding: 0 100px;
-    margin-right: 700px;
-}
-
-nav ul {
-    float: right;
-    margin-right: 20px;
-}
-
-nav ul li {
+.flex-container{
     display: flex;
-    flex-direction: column-reverse;
-    justify-content: end;
+    flex-direction: row;
     align-items: center;
-    line-height: 80px;
-    margin: 0 15px;
+    justify-content: center;
 }
 
-nav ul li a {
-    font-size: 1.1rem;
-    text-decoration: none;
-    color: #BFACE2;
-    ;
+.flex-container img{
+    margin: 20px;
 }
 
+@media (max-width: 1000px) {
+    .flex-container{
+        flex-direction: column;
+    }
+}
 /*Albums/Songs*/
 .flex-container-f-a-n-s {
     display: flex;
@@ -128,7 +132,7 @@ nav ul li a {
     margin: 1rem auto;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .flex-container-f-a-n-s {
         flex-direction: column;
     }
