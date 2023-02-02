@@ -9,20 +9,24 @@
 }
 
 body {
-    font-family: montserrat;
+    font-family: Montserrat;
     background: #A084DC;
 }
 
 marquee {
     background-color: #A084DC;
     font-family: Ubuntu;
-    padding: 10px;
+    padding: 10px;  
     border-bottom: #6a64c5 solid 1px;
     margin: 0;
 }
 
 p {
     height: 100%;
+}
+
+span{
+    font-family: sans-serif;
 }
 
 /*Class Selectors*/
@@ -36,12 +40,16 @@ p {
     background-color: #BFACE2;
     margin: 0px;
     font-family: Poppins;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .abt-bp {
     background-color: #BFACE2;
     margin: 0px;
     font-family: Poppins;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .abt-ive {
@@ -49,6 +57,8 @@ p {
     margin: 0px;
     padding: 20px;
     font-family: Poppins;
+    display: flex;
+    flex-wrap: wrap;
 }
 /*Navbar*/
 .navbar{
@@ -75,6 +85,12 @@ nav ul li{
     margin-top: 50px;
     padding: 7px;
 }
+nav ul li a{
+    margin-top: 50px;
+    padding: 7px;
+    color: #551A8B;
+    font-weight: 500;
+}
 
 @media (max-width: 1000px) {
     nav{
@@ -83,6 +99,10 @@ nav ul li{
     }
     .navbar{
         height: 200px;
+    }
+    nav ul{
+        width: 1000px;
+        background-color:#BFACE2;
     }
     nav ul li{
         display: block;
@@ -156,3 +176,11 @@ nav ul li{
 
 /*ID Selectors*/
 /*footer*/
+.flex-links{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
